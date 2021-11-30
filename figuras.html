@@ -32,6 +32,32 @@
         <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perímetro</button>
         <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
     </section>
+    <!-- TRIANGULO ISÓCELES -->
+    <section>
+        <h2>Calcular área y altura de un triangulo isóceles</h2>
+        <label for="InputTrianguloLado">
+            Escribe cuando mide los lados de tu triangulo
+        </label>
+        <input type="number" id="InputTrianguloLado">
+        <br>
+        <label for="InputTrianguloBase">
+            Escribe cuanto mide la base de tu triangulo
+        </label>
+        <input type="number" id="InputTrianguloBase">
+        <button type="button" onclick="calcularAreaTrianguloIso()">Calcular el área</button>
+        <button type="butoon" onclick="calcularAlturaTrianguloIso()">Calcular la altura</button>
+    </section>
+    <!-- ******************************* -->
+    <section>
+        <h2>Calcular Diametro, circunferencia y área de un Circulo</h2>
+        <label for="InputCirculo">
+            Escribe cuanto mide el radio de tu circulo
+        </label>
+        <input type="number" id="InputCirculo">
+        <button type="button" onclick="calcularDiametroCirculo()">Calcular Diametro</button>
+        <button type="button" onclick="calcularCircunCirculo()">Calcular Circunferencia</button>
+        <button type="button" onclick="calcularAreaCirculo()">Calcular Área</button>
+    </section>
 
     <script src="./figuras.js"></script>
 </body>
